@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .navbar {
+    background-color: #3498db;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-title {
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  
+  .navbar-button {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #2654c7;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #2436bc;
+    }
+  }
+  .logIn-content{
+    text-align: center;
+    margin-top: 50px; /* Poți ajusta margin-top pentru a controla spațiul de sus */
+  }
+
+  button{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    margin: auto;
+}
+
+button:hover{
+    background-color: #2980b9;
+}

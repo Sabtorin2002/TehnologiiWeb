@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .navbar {
+    background-color: #3498db;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-title {
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  
+  .navbar-button {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #2654c7;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #2436bc;
+    }
+  }
+
+  .coduri-acces-lista{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .coduri-acces-lista ul{
+    list-style:upper-roman;
+    padding: 0;
+  }
+
+.coduri-acces-lista li{
+    margin-top: 5px;
+}
